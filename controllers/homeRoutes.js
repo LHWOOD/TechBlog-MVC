@@ -87,7 +87,7 @@ router.get("/signup", (req, res) => {
   res.render("signup");
 });
 
-router.ger("*", (req, res) => {
+router.get("*", (req, res) => {
   res.status(404).send("Wrong way!");
 });
 
