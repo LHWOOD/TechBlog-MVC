@@ -1,1 +1,28 @@
-/* need to style  */
+* {
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+body {
+  background-color: rgb(175, 170, 170);
+}
+header {
+  background-color: rgb(175, 170, 170);
+  color: white;
+}
+.h1 {
+  font-size: 55px;
+  text-align: center;
+}
+
+.nav {
+  /* text-align: left; */
+}
+
+.ul {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: solid 1px white;
+  padding-bottom: 15px;
+  font-size: 19px;
+}
